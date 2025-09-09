@@ -1,6 +1,7 @@
 package net.cptshape.cptshapemod.item;
 
 import net.cptshape.cptshapemod.CptShapeMod;
+import net.cptshape.cptshapemod.item.custom.ChiselItem;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -14,6 +15,9 @@ public class ModItems {
 
     public static final DeferredItem<Item> RAW_TEST_ITEM = ITEMS.register("raw_testitem",
             () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> CHISEL = ITEMS.register("chisel",
+            () -> new ChiselItem(new Item.Properties().durability(32)));
 
 
 

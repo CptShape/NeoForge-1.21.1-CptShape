@@ -24,6 +24,8 @@ public class ModeCreativeModeTabs {
                         output.accept(ModItems.TEST_ITEM);
                         output.accept(ModItems.RAW_TEST_ITEM);
 
+                        output.accept(ModItems.CHISEL);
+
                     }).build());
 
     public static final Supplier<CreativeModeTab> CPTSHAPE_BLOCKS_TAB = CREATIVE_MODE_TAB.register("cptshape_blocks_tab",
@@ -34,7 +36,9 @@ public class ModeCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.TEST_BLOCK);
                         output.accept(ModBlocks.TEST_BLOCK_ORE);
+                        output.accept(ModBlocks.TEST_BLOCK_DEEPSLATE_ORE);
 
+                        output.accept(ModBlocks.MAGIC_BLOCK);
                     }).build());
 
     public static void register(IEventBus eventBus) {

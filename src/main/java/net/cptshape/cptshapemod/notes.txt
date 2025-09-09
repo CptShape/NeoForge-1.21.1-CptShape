@@ -1,0 +1,40 @@
+ITEM:
+lang - en_us
+models - item - new json
+textures - item - new png
+main - item - moditems - register the item
+main - item - modecreativemodetabs - add the item to a tab
+
+ADVANCED ITEM:
+main - item - custom - new class for the advanced item
+
+
+BLOCK:
+blockstates - new json
+lang - en_us
+models - block - new json
+models - item - new json
+textures - block - new png
+main - block - modblocks - register the block
+main - item - modecreativemodetabs - add the block to a tab
+
+BLOCK MINEABLITY:
+minecraft - tags - block - needs_iron/diamond_tool.json'lara ekleme yap
+minecraft - tags - block - mineable - pickaxe/axe/shovel'a ekleme yap
+
+BLOCK LOOT TABLE:
+data - cptshapemod - loot_table - blocks - new json
+
+ADVANCED BLOCK:
+main - block - custom - new class for the advanced block
+
+
+
+CREATIVE TAB:
+main - item - modecreativemodetabs - new tab entry
+lang - en_us
+
+
+
+RECIPE:
+data - cptshapemod - recipe - new json

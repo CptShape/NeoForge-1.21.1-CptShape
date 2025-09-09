@@ -1,9 +1,13 @@
 {
   "item.cptshapemod.testitem": "Test Item",
   "item.cptshapemod.raw_testitem": "Raw Test Item",
+  "item.cptshapemod.chisel": "Chisel",
 
   "block.cptshapemod.testblock": "Test Block",
   "block.cptshapemod.testblock_ore": "Test Block Ore",
+  "block.cptshapemod.testblock_deepslate_ore": "Test Block Deepslate Ore",
+
+  "block.cptshapemod.magic_block": "Magic Block",
 
   "creativetab.cptshapemod.cptshape_items_tab": "CptShape Items",
   "creativetab.cptshapemod.cptshape_blocks_tab": "CptShape Blocks"

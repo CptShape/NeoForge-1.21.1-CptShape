@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "cptshapemod:block/magic_block"
+    }
+  }
+}

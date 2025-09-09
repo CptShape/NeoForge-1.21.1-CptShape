@@ -1,6 +1,7 @@
 package net.cptshape.cptshapemod.block;
 
 import net.cptshape.cptshapemod.CptShapeMod;
+import net.cptshape.cptshapemod.block.custom.MagicBlock;
 import net.cptshape.cptshapemod.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -31,6 +32,21 @@ public class ModBlocks {
                             .strength(3f)
                             .requiresCorrectToolForDrops()
                             .sound(SoundType.STONE)
+            ));
+
+    public static final DeferredBlock<Block> TEST_BLOCK_DEEPSLATE_ORE =
+            registerBlock("testblock_deepslate_ore", () -> new DropExperienceBlock(UniformInt.of(3, 6),
+                    BlockBehaviour.Properties.of()
+                            .strength(4f)
+                            .requiresCorrectToolForDrops()
+                            .sound(SoundType.STONE)
+            ));
+
+    public static final DeferredBlock<Block> MAGIC_BLOCK =
+            registerBlock("magic_block", () -> new MagicBlock(
+                    BlockBehaviour.Properties.of()
+                            .strength(2f)
+                            .requiresCorrectToolForDrops()
             ));
 
 

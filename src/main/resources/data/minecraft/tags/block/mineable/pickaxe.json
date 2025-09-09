@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "cptshapemod:testblock",
+    "cptshapemod:testblock_ore",
+    "cptshapemod:testblock_deepslate_ore"
+  ]
+}
