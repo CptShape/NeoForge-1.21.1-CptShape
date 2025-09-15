@@ -23,6 +23,8 @@ public class ModeCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.TEST_ITEM);
                         output.accept(ModItems.RAW_TEST_ITEM);
+                        output.accept(ModItems.STARLIGHT_ASHES);
+                        output.accept(ModItems.FROSTFIRE_ICE);
 
                         output.accept(ModItems.CHISEL);
 
@@ -38,7 +40,26 @@ public class ModeCreativeModeTabs {
                         output.accept(ModBlocks.TEST_BLOCK_ORE);
                         output.accept(ModBlocks.TEST_BLOCK_DEEPSLATE_ORE);
 
+                        output.accept(ModBlocks.TESTITEM_STAIRS);
+                        output.accept(ModBlocks.TESTITEM_SLAB);
+                        output.accept(ModBlocks.TESTITEM_PRESSURE_PLATE);
+                        output.accept(ModBlocks.TESTITEM_BUTTON);
+                        output.accept(ModBlocks.TESTITEM_FENCE);
+                        output.accept(ModBlocks.TESTITEM_FENCE_GATE);
+                        output.accept(ModBlocks.TESTITEM_WALL);
+                        output.accept(ModBlocks.TESTITEM_DOOR);
+                        output.accept(ModBlocks.TESTITEM_TRAP_DOOR);
+
                         output.accept(ModBlocks.MAGIC_BLOCK);
+                    }).build());
+
+    public static final Supplier<CreativeModeTab> CPTSHAPE_FOODS_TAB = CREATIVE_MODE_TAB.register("cptshape_foods_tab",
+            () -> CreativeModeTab.builder()
+                    .icon(() -> new ItemStack(ModItems.RADISH.get()))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(CptShapeMod.MOD_ID, "cptshape_blocks_tab"))
+                    .title(Component.translatable("creativetab.cptshapemod.cptshape_foods_tab"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModItems.RADISH);
                     }).build());
 
     public static void register(IEventBus eventBus) {

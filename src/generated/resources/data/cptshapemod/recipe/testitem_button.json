@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "testitem",
+  "ingredients": [
+    {
+      "item": "cptshapemod:testitem"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "cptshapemod:testitem_button"
+  }
+}

@@ -3,12 +3,36 @@
   "item.cptshapemod.raw_testitem": "Raw Test Item",
   "item.cptshapemod.chisel": "Chisel",
 
+  "item.cptshapemod.radish": "Radish",
+
+  "item.cptshapemod.starlight_ashes": "Starlight Ashes",
+  "item.cptshapemod.frostfire_ice": "Frostfire Ice",
+
   "block.cptshapemod.testblock": "Test Block",
   "block.cptshapemod.testblock_ore": "Test Block Ore",
   "block.cptshapemod.testblock_deepslate_ore": "Test Block Deepslate Ore",
 
+  "block.cptshapemod.testitem_stairs": "testitem Stairs",
+  "block.cptshapemod.testitem_slab": "testitem Slab",
+
+  "block.cptshapemod.testitem_button": "testitem Button",
+  "block.cptshapemod.testitem_pressure_plate": "testitem Pressure Plate",
+
+  "block.cptshapemod.testitem_fence": "testitem Fence",
+  "block.cptshapemod.testitem_fence_gate": "testitem Fence Gate",
+  "block.cptshapemod.testitem_wall": "testitem Wall",
+
+  "block.cptshapemod.testitem_door": "testitem Door",
+  "block.cptshapemod.testitem_trapdoor": "testitem Trapdoor",
+
   "block.cptshapemod.magic_block": "Magic Block",
 
   "creativetab.cptshapemod.cptshape_items_tab": "CptShape Items",
-  "creativetab.cptshapemod.cptshape_blocks_tab": "CptShape Blocks"
+  "creativetab.cptshapemod.cptshape_blocks_tab": "CptShape Blocks",
+  "creativetab.cptshapemod.cptshape_foods_tab": "CptShape Foods",
+
+  "tooltip.cptshapemod.info.tooltip": "Press SHIFT for more info.",
+  "tooltip.cptshapemod.magic_block.tooltip": "This block is very §9MAGICAL§r",
+  "tooltip.cptshapemod.chisel.tooltip": "This item can chisel Blocks.",
+  "tooltip.cptshapemod.radish.tooltip": "Radish!"
 }

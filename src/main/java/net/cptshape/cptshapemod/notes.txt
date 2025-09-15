@@ -1,19 +1,35 @@
-ITEM:
+ITEM: testitem
 lang - en_us
-models - item - new json
+models - item - new json ** ModItemModelProvider'a taşındı
 textures - item - new png
 main - item - moditems - register the item
 main - item - modecreativemodetabs - add the item to a tab
 
-ADVANCED ITEM:
+ADVANCED ITEM: chisel
 main - item - custom - new class for the advanced item
 
+FOOD: radish
+main - item - ModFoodProperties - create properties for the food
+main - item - moditems - register the item, while registering it use the modfoodproperties for the item
 
-BLOCK:
-blockstates - new json
+FUEL: frostfire_ice and starlight_ashes
+While registering an item, we register it as a FuelItem (main - item - custom - FuelItem) and give it a parameter as burnTime.
+OR
+data - neoforge --- furnace_fuels - register the item as a normal item but add a burn time value in here
+
+TAGS:
+data --- tags - item - new json for the tag and put which items have this tag
+main --- util - ModTags - register a tag in here
+example usage of the tag can be found in MagicBlock
+
+
+
+
+BLOCK: testblock
+blockstates - new json**
 lang - en_us
-models - block - new json
-models - item - new json
+models - block - new json**
+models - item - new json**
 textures - block - new png
 main - block - modblocks - register the block
 main - item - modecreativemodetabs - add the block to a tab
@@ -25,8 +41,10 @@ minecraft - tags - block - mineable - pickaxe/axe/shovel'a ekleme yap
 BLOCK LOOT TABLE:
 data - cptshapemod - loot_table - blocks - new json
 
-ADVANCED BLOCK:
+ADVANCED BLOCK: magic_block
 main - block - custom - new class for the advanced block
+
+
 
 
 
@@ -36,5 +54,15 @@ lang - en_us
 
 
 
+
+
 RECIPE:
 data - cptshapemod - recipe - new json
+
+
+
+
+
+TOOLTOP: chisel, magic_block and radish
+either override appendHoverText function inside of a class, if you don't have a class for the item in the registeration
+you can create an anonymous class and override the function in there.

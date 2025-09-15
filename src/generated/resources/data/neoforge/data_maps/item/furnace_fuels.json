@@ -1,0 +1,10 @@
+{
+  "values": {
+    "cptshapemod:frostfire_ice": {
+      "burn_time": 2400
+    },
+    "cptshapemod:starlight_ashes": {
+      "burn_time": 1200
+    }
+  }
+}

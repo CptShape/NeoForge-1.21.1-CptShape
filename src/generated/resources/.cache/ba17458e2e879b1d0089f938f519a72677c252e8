@@ -1,0 +1,6 @@
+// 1.21.1	2025-09-15T03:19:23.4780628	Tags for minecraft:block mod id cptshapemod
+81a3674cc6cf1a80d419bc0f757cd422140fff3e data/minecraft/tags/block/fences.json
+248dd6fcb76817b995837e152198cafa8cc6b534 data/minecraft/tags/block/fence_gates.json
+9b0ab28c7e871fc29822093aa242335df3e4f372 data/minecraft/tags/block/mineable/pickaxe.json
+aa5fc92bd2792e5f4fa7a60bf3fed69bc0d9f6dc data/minecraft/tags/block/needs_iron_tool.json
+27509d42c9ac58b7c79a14c1071bdedb3783269e data/minecraft/tags/block/walls.json
