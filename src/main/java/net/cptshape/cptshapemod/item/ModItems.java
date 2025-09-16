@@ -16,10 +16,10 @@ import java.util.List;
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(CptShapeMod.MOD_ID);
 
-    public static final DeferredItem<Item> TEST_ITEM = ITEMS.register("testitem",
+    public static final DeferredItem<Item> BISMUTH = ITEMS.register("bismuth",
             () -> new Item(new Item.Properties()));
 
-    public static final DeferredItem<Item> RAW_TEST_ITEM = ITEMS.register("raw_testitem",
+    public static final DeferredItem<Item> RAW_BISMUTH = ITEMS.register("raw_bismuth",
             () -> new Item(new Item.Properties()));
 
     public static final DeferredItem<Item> CHISEL = ITEMS.register("chisel",

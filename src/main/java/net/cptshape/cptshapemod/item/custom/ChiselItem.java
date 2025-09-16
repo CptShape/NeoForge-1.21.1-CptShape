@@ -23,8 +23,8 @@ public class ChiselItem extends Item {
     private static final Map<Block, Block> CHISEL_MAP =
             Map.of(
                     Blocks.STONE, Blocks.STONE_BRICKS,
-                    ModBlocks.TEST_BLOCK_ORE.get(), ModBlocks.TEST_BLOCK_DEEPSLATE_ORE.get(),
-                    ModBlocks.TEST_BLOCK_DEEPSLATE_ORE.get(), ModBlocks.TEST_BLOCK_ORE.get()
+                    ModBlocks.BISMUTH_ORE.get(), ModBlocks.BISMUTH_DEEPSLATE_ORE.get(),
+                    ModBlocks.BISMUTH_DEEPSLATE_ORE.get(), ModBlocks.BISMUTH_ORE.get()
             );
 
     public ChiselItem(Properties properties) {

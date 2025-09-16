@@ -1,6 +1,6 @@
 {
-  "item.cptshapemod.testitem": "Test Item",
-  "item.cptshapemod.raw_testitem": "Raw Test Item",
+  "item.cptshapemod.bismuth": "bismuth",
+  "item.cptshapemod.raw_bismuth": "Raw bismuth",
   "item.cptshapemod.chisel": "Chisel",
 
   "item.cptshapemod.radish": "Radish",
@@ -8,22 +8,22 @@
   "item.cptshapemod.starlight_ashes": "Starlight Ashes",
   "item.cptshapemod.frostfire_ice": "Frostfire Ice",
 
-  "block.cptshapemod.testblock": "Test Block",
-  "block.cptshapemod.testblock_ore": "Test Block Ore",
-  "block.cptshapemod.testblock_deepslate_ore": "Test Block Deepslate Ore",
+  "block.cptshapemod.bismuth_block": "bismuth Block",
+  "block.cptshapemod.bismuth_ore": "bismuth Ore",
+  "block.cptshapemod.bismuth_deepslate_ore": "bismuth Deepslate Ore",
 
-  "block.cptshapemod.testitem_stairs": "testitem Stairs",
-  "block.cptshapemod.testitem_slab": "testitem Slab",
+  "block.cptshapemod.bismuth_stairs": "bismuth Stairs",
+  "block.cptshapemod.bismuth_slab": "bismuth Slab",
 
-  "block.cptshapemod.testitem_button": "testitem Button",
-  "block.cptshapemod.testitem_pressure_plate": "testitem Pressure Plate",
+  "block.cptshapemod.bismuth_button": "bismuth Button",
+  "block.cptshapemod.bismuth_pressure_plate": "bismuth Pressure Plate",
 
-  "block.cptshapemod.testitem_fence": "testitem Fence",
-  "block.cptshapemod.testitem_fence_gate": "testitem Fence Gate",
-  "block.cptshapemod.testitem_wall": "testitem Wall",
+  "block.cptshapemod.bismuth_fence": "bismuth Fence",
+  "block.cptshapemod.bismuth_fence_gate": "bismuth Fence Gate",
+  "block.cptshapemod.bismuth_wall": "bismuth Wall",
 
-  "block.cptshapemod.testitem_door": "testitem Door",
-  "block.cptshapemod.testitem_trapdoor": "testitem Trapdoor",
+  "block.cptshapemod.bismuth_door": "bismuth Door",
+  "block.cptshapemod.bismuth_trapdoor": "bismuth Trapdoor",
 
   "block.cptshapemod.magic_block": "Magic Block",
 

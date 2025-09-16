@@ -26,26 +26,26 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
 
     @Override
     protected void generate() {
-        dropSelf(ModBlocks.TEST_BLOCK.get());
+        dropSelf(ModBlocks.BISMUTH_BLOCK.get());
         dropSelf(ModBlocks.MAGIC_BLOCK.get());
 
-        add(ModBlocks.TEST_BLOCK_ORE.get(),
-                block -> createOreDrop(ModBlocks.TEST_BLOCK_ORE.get(), ModItems.RAW_TEST_ITEM.get()));
-        add(ModBlocks.TEST_BLOCK_DEEPSLATE_ORE.get(),
-                block -> createMultipleOreDrops(ModBlocks.TEST_BLOCK_DEEPSLATE_ORE.get(), ModItems.RAW_TEST_ITEM.get(), 2, 5));
+        add(ModBlocks.BISMUTH_ORE.get(),
+                block -> createOreDrop(ModBlocks.BISMUTH_ORE.get(), ModItems.RAW_BISMUTH.get()));
+        add(ModBlocks.BISMUTH_DEEPSLATE_ORE.get(),
+                block -> createMultipleOreDrops(ModBlocks.BISMUTH_DEEPSLATE_ORE.get(), ModItems.RAW_BISMUTH.get(), 2, 5));
 
-        dropSelf(ModBlocks.TESTITEM_STAIRS.get());
-        add(ModBlocks.TESTITEM_SLAB.get(),
-                block -> createSlabItemTable(ModBlocks.TESTITEM_SLAB.get()));
-        dropSelf(ModBlocks.TESTITEM_PRESSURE_PLATE.get());
-        dropSelf(ModBlocks.TESTITEM_BUTTON.get());
-        dropSelf(ModBlocks.TESTITEM_FENCE.get());
-        dropSelf(ModBlocks.TESTITEM_FENCE_GATE.get());
-        dropSelf(ModBlocks.TESTITEM_WALL.get());
-        dropSelf(ModBlocks.TESTITEM_TRAP_DOOR.get());
-        dropSelf(ModBlocks.TESTITEM_WALL.get());
-        add(ModBlocks.TESTITEM_DOOR.get(),
-                block -> createDoorTable(ModBlocks.TESTITEM_DOOR.get()));
+        dropSelf(ModBlocks.BISMUTH_STAIRS.get());
+        add(ModBlocks.BISMUTH_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.BISMUTH_SLAB.get()));
+        dropSelf(ModBlocks.BISMUTH_PRESSURE_PLATE.get());
+        dropSelf(ModBlocks.BISMUTH_BUTTON.get());
+        dropSelf(ModBlocks.BISMUTH_FENCE.get());
+        dropSelf(ModBlocks.BISMUTH_FENCE_GATE.get());
+        dropSelf(ModBlocks.BISMUTH_WALL.get());
+        dropSelf(ModBlocks.BISMUTH_TRAP_DOOR.get());
+        dropSelf(ModBlocks.BISMUTH_WALL.get());
+        add(ModBlocks.BISMUTH_DOOR.get(),
+                block -> createDoorTable(ModBlocks.BISMUTH_DOOR.get()));
     }
 
     protected LootTable.Builder createMultipleOreDrops(Block pBlock, Item item, float minDrops, float maxDrops) {

@@ -1,4 +1,4 @@
-ITEM: testitem
+ITEM: bismuth
 lang - en_us
 models - item - new json ** ModItemModelProvider'a taşındı
 textures - item - new png
@@ -25,7 +25,7 @@ example usage of the tag can be found in MagicBlock
 
 
 
-BLOCK: testblock
+BLOCK: bismuth_block
 blockstates - new json**
 lang - en_us
 models - block - new json**

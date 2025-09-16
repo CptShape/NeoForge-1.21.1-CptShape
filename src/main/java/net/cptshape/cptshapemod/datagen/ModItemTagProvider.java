@@ -22,8 +22,8 @@ public class ModItemTagProvider extends ItemTagsProvider {
     @Override
     protected void addTags(HolderLookup.Provider provider) {
         tag(ModTags.Items.TRANSFORMABLE_ITEMS)
-                .add(ModItems.TEST_ITEM.get())
-                .add(ModItems.RAW_TEST_ITEM.get())
+                .add(ModItems.BISMUTH.get())
+                .add(ModItems.RAW_BISMUTH.get())
                 .add(Items.COAL);
 
     }

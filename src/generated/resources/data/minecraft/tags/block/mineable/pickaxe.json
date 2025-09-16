@@ -1,7 +1,7 @@
 {
   "values": [
-    "cptshapemod:testblock",
-    "cptshapemod:testblock_ore",
-    "cptshapemod:testblock_deepslate_ore"
+    "cptshapemod:bismuth_block",
+    "cptshapemod:bismuth_ore",
+    "cptshapemod:bismuth_deepslate_ore"
   ]
 }

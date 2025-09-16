@@ -15,28 +15,28 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
     @Override
     protected void registerStatesAndModels() {
-        blockWithItem(ModBlocks.TEST_BLOCK);
+        blockWithItem(ModBlocks.BISMUTH_BLOCK);
 
-        blockWithItem(ModBlocks.TEST_BLOCK_ORE);
-        blockWithItem(ModBlocks.TEST_BLOCK_DEEPSLATE_ORE);
+        blockWithItem(ModBlocks.BISMUTH_ORE);
+        blockWithItem(ModBlocks.BISMUTH_DEEPSLATE_ORE);
 
         blockWithItem(ModBlocks.MAGIC_BLOCK);
 
-        stairsBlock(ModBlocks.TESTITEM_STAIRS.get(), blockTexture(ModBlocks.TEST_BLOCK.get()));
-        slabBlock(ModBlocks.TESTITEM_SLAB.get(), blockTexture(ModBlocks.TEST_BLOCK.get()), blockTexture(ModBlocks.TEST_BLOCK.get()));
-        buttonBlock(ModBlocks.TESTITEM_BUTTON.get(), blockTexture(ModBlocks.TEST_BLOCK.get()));
-        pressurePlateBlock(ModBlocks.TESTITEM_PRESSURE_PLATE.get(), blockTexture(ModBlocks.TEST_BLOCK.get()));
-        fenceBlock(ModBlocks.TESTITEM_FENCE.get(), blockTexture(ModBlocks.TEST_BLOCK.get()));
-        fenceGateBlock(ModBlocks.TESTITEM_FENCE_GATE.get(), blockTexture(ModBlocks.TEST_BLOCK.get()));
-        wallBlock(ModBlocks.TESTITEM_WALL.get(), blockTexture(ModBlocks.TEST_BLOCK.get()));
-        doorBlockWithRenderType(ModBlocks.TESTITEM_DOOR.get(), modLoc("block/testitem_door_bottom"), modLoc("block/testitem_door_top"), "cutout");
-        trapdoorBlockWithRenderType(ModBlocks.TESTITEM_TRAP_DOOR.get(), modLoc("block/testitem_trapdoor"), true,"cutout");
+        stairsBlock(ModBlocks.BISMUTH_STAIRS.get(), blockTexture(ModBlocks.BISMUTH_BLOCK.get()));
+        slabBlock(ModBlocks.BISMUTH_SLAB.get(), blockTexture(ModBlocks.BISMUTH_BLOCK.get()), blockTexture(ModBlocks.BISMUTH_BLOCK.get()));
+        buttonBlock(ModBlocks.BISMUTH_BUTTON.get(), blockTexture(ModBlocks.BISMUTH_BLOCK.get()));
+        pressurePlateBlock(ModBlocks.BISMUTH_PRESSURE_PLATE.get(), blockTexture(ModBlocks.BISMUTH_BLOCK.get()));
+        fenceBlock(ModBlocks.BISMUTH_FENCE.get(), blockTexture(ModBlocks.BISMUTH_BLOCK.get()));
+        fenceGateBlock(ModBlocks.BISMUTH_FENCE_GATE.get(), blockTexture(ModBlocks.BISMUTH_BLOCK.get()));
+        wallBlock(ModBlocks.BISMUTH_WALL.get(), blockTexture(ModBlocks.BISMUTH_BLOCK.get()));
+        doorBlockWithRenderType(ModBlocks.BISMUTH_DOOR.get(), modLoc("block/bismuth_door_bottom"), modLoc("block/bismuth_door_top"), "cutout");
+        trapdoorBlockWithRenderType(ModBlocks.BISMUTH_TRAP_DOOR.get(), modLoc("block/bismuth_trapdoor"), true,"cutout");
 
-        blockItem(ModBlocks.TESTITEM_STAIRS);
-        blockItem(ModBlocks.TESTITEM_SLAB);
-        blockItem(ModBlocks.TESTITEM_PRESSURE_PLATE);
-        blockItem(ModBlocks.TESTITEM_FENCE_GATE);
-        blockItem(ModBlocks.TESTITEM_TRAP_DOOR, "_bottom");
+        blockItem(ModBlocks.BISMUTH_STAIRS);
+        blockItem(ModBlocks.BISMUTH_SLAB);
+        blockItem(ModBlocks.BISMUTH_PRESSURE_PLATE);
+        blockItem(ModBlocks.BISMUTH_FENCE_GATE);
+        blockItem(ModBlocks.BISMUTH_TRAP_DOOR, "_bottom");
     }
 
     private void blockWithItem(DeferredBlock<?> deferredBlock) {

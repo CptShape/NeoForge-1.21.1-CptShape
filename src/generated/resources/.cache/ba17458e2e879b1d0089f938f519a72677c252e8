@@ -1,6 +1,6 @@
-// 1.21.1	2025-09-15T03:19:23.4780628	Tags for minecraft:block mod id cptshapemod
-81a3674cc6cf1a80d419bc0f757cd422140fff3e data/minecraft/tags/block/fences.json
-248dd6fcb76817b995837e152198cafa8cc6b534 data/minecraft/tags/block/fence_gates.json
-9b0ab28c7e871fc29822093aa242335df3e4f372 data/minecraft/tags/block/mineable/pickaxe.json
-aa5fc92bd2792e5f4fa7a60bf3fed69bc0d9f6dc data/minecraft/tags/block/needs_iron_tool.json
-27509d42c9ac58b7c79a14c1071bdedb3783269e data/minecraft/tags/block/walls.json
+// 1.21.1	2025-09-16T06:56:41.4176393	Tags for minecraft:block mod id cptshapemod
+7b0565f15147f15c4cf2421fa63ea5fa3d14d868 data/minecraft/tags/block/fences.json
+c7cdc0c6264cb146bfcbfcc29b5fdf1544767d79 data/minecraft/tags/block/fence_gates.json
+501a217924d3d3e6050f09468a7d6926d0784d3b data/minecraft/tags/block/mineable/pickaxe.json
+45a51555d6ce6ae269da74fd2d64ad89d0ff55f7 data/minecraft/tags/block/needs_iron_tool.json
+f271e73750cde0059fa59fa505091373debaada8 data/minecraft/tags/block/walls.json

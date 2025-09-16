@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "cptshapemod:block/bismuth_slab"
+    },
+    "type=double": {
+      "model": "cptshapemod:block/bismuth_block"
+    },
+    "type=top": {
+      "model": "cptshapemod:block/bismuth_slab_top"
+    }
+  }
+}

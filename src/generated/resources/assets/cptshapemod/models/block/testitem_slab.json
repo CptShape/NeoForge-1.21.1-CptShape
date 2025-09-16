@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "cptshapemod:block/testblock",
-    "side": "cptshapemod:block/testblock",
-    "top": "cptshapemod:block/testblock"
-  }
-}

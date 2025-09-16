@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/door_top_right",
-  "render_type": "minecraft:cutout",
-  "textures": {
-    "bottom": "cptshapemod:block/testitem_door_bottom",
-    "top": "cptshapemod:block/testitem_door_top"
-  }
-}

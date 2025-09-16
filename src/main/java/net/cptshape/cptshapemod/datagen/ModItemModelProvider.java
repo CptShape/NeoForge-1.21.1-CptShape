@@ -17,19 +17,19 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
-        basicItem(ModItems.TEST_ITEM.get());
-        basicItem(ModItems.RAW_TEST_ITEM.get());
+        basicItem(ModItems.BISMUTH.get());
+        basicItem(ModItems.RAW_BISMUTH.get());
 
         basicItem(ModItems.RADISH.get());
         basicItem(ModItems.STARLIGHT_ASHES.get());
         basicItem(ModItems.FROSTFIRE_ICE.get());
         basicItem(ModItems.CHISEL.get());
 
-        buttonItem(ModBlocks.TESTITEM_BUTTON, ModBlocks.TEST_BLOCK);
-        fenceItem(ModBlocks.TESTITEM_FENCE, ModBlocks.TEST_BLOCK);
-        wallItem(ModBlocks.TESTITEM_WALL, ModBlocks.TEST_BLOCK);
+        buttonItem(ModBlocks.BISMUTH_BUTTON, ModBlocks.BISMUTH_BLOCK);
+        fenceItem(ModBlocks.BISMUTH_FENCE, ModBlocks.BISMUTH_BLOCK);
+        wallItem(ModBlocks.BISMUTH_WALL, ModBlocks.BISMUTH_BLOCK);
 
-        basicItem(ModBlocks.TESTITEM_DOOR.asItem());
+        basicItem(ModBlocks.BISMUTH_DOOR.asItem());
     }
 
     public void buttonItem(DeferredBlock<?> block, DeferredBlock<Block> baseBlock) {

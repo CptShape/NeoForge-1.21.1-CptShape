@@ -18,11 +18,11 @@ public class ModeCreativeModeTabs {
 
     public static final Supplier<CreativeModeTab> CPTSHAPE_ITEMS_TAB = CREATIVE_MODE_TAB.register("cptshape_items_tab",
             () -> CreativeModeTab.builder()
-                    .icon(() -> new ItemStack(ModItems.TEST_ITEM.get()))
+                    .icon(() -> new ItemStack(ModItems.BISMUTH.get()))
                     .title(Component.translatable("creativetab.cptshapemod.cptshape_items_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModItems.TEST_ITEM);
-                        output.accept(ModItems.RAW_TEST_ITEM);
+                        output.accept(ModItems.BISMUTH);
+                        output.accept(ModItems.RAW_BISMUTH);
                         output.accept(ModItems.STARLIGHT_ASHES);
                         output.accept(ModItems.FROSTFIRE_ICE);
 
@@ -32,23 +32,23 @@ public class ModeCreativeModeTabs {
 
     public static final Supplier<CreativeModeTab> CPTSHAPE_BLOCKS_TAB = CREATIVE_MODE_TAB.register("cptshape_blocks_tab",
             () -> CreativeModeTab.builder()
-                    .icon(() -> new ItemStack(ModBlocks.TEST_BLOCK))
+                    .icon(() -> new ItemStack(ModBlocks.BISMUTH_BLOCK))
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(CptShapeMod.MOD_ID, "cptshape_items_tab"))
                     .title(Component.translatable("creativetab.cptshapemod.cptshape_blocks_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModBlocks.TEST_BLOCK);
-                        output.accept(ModBlocks.TEST_BLOCK_ORE);
-                        output.accept(ModBlocks.TEST_BLOCK_DEEPSLATE_ORE);
+                        output.accept(ModBlocks.BISMUTH_BLOCK);
+                        output.accept(ModBlocks.BISMUTH_ORE);
+                        output.accept(ModBlocks.BISMUTH_DEEPSLATE_ORE);
 
-                        output.accept(ModBlocks.TESTITEM_STAIRS);
-                        output.accept(ModBlocks.TESTITEM_SLAB);
-                        output.accept(ModBlocks.TESTITEM_PRESSURE_PLATE);
-                        output.accept(ModBlocks.TESTITEM_BUTTON);
-                        output.accept(ModBlocks.TESTITEM_FENCE);
-                        output.accept(ModBlocks.TESTITEM_FENCE_GATE);
-                        output.accept(ModBlocks.TESTITEM_WALL);
-                        output.accept(ModBlocks.TESTITEM_DOOR);
-                        output.accept(ModBlocks.TESTITEM_TRAP_DOOR);
+                        output.accept(ModBlocks.BISMUTH_STAIRS);
+                        output.accept(ModBlocks.BISMUTH_SLAB);
+                        output.accept(ModBlocks.BISMUTH_PRESSURE_PLATE);
+                        output.accept(ModBlocks.BISMUTH_BUTTON);
+                        output.accept(ModBlocks.BISMUTH_FENCE);
+                        output.accept(ModBlocks.BISMUTH_FENCE_GATE);
+                        output.accept(ModBlocks.BISMUTH_WALL);
+                        output.accept(ModBlocks.BISMUTH_DOOR);
+                        output.accept(ModBlocks.BISMUTH_TRAP_DOOR);
 
                         output.accept(ModBlocks.MAGIC_BLOCK);
                     }).build());
