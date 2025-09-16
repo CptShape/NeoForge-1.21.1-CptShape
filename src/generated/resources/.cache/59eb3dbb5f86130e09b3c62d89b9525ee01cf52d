@@ -1,10 +1,11 @@
-// 1.21.1	2025-09-16T06:56:41.4146383	Loot Tables
+// 1.21.1	2025-09-16T07:29:23.4512178	Loot Tables
 c4378f53af6b9d549bd9f3a5ec8576e3234bf838 data/cptshapemod/loot_table/blocks/bismuth_block.json
 7a933d1792fa9aad3b98b3c8e295fdb07961e992 data/cptshapemod/loot_table/blocks/bismuth_button.json
 b0ca7f371bad79ea3d4a787c239d81195024da7e data/cptshapemod/loot_table/blocks/bismuth_deepslate_ore.json
 b4fbf6cb33c82aec026db390cb77d8dc8fde7a87 data/cptshapemod/loot_table/blocks/bismuth_door.json
 79bf13cba3299946430ac01ffeb3582caed5e33a data/cptshapemod/loot_table/blocks/bismuth_fence.json
 4a2ecc743a3173c53a7ed59f1c243381c31c18c9 data/cptshapemod/loot_table/blocks/bismuth_fence_gate.json
+486da5309317dc881f70dcaa9cb8b3ceec3373f4 data/cptshapemod/loot_table/blocks/bismuth_lamp.json
 84910727c1a0c470e45eea3c658205a73c14ce15 data/cptshapemod/loot_table/blocks/bismuth_ore.json
 25eb7c8812f5a9879c20ed29494c3ee79b14a7d8 data/cptshapemod/loot_table/blocks/bismuth_pressure_plate.json
 a49e2ecadb0d0b30ee3b89fbd0ba56bb68804b0b data/cptshapemod/loot_table/blocks/bismuth_slab.json

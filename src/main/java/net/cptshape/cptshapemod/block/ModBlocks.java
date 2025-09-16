@@ -1,6 +1,7 @@
 package net.cptshape.cptshapemod.block;
 
 import net.cptshape.cptshapemod.CptShapeMod;
+import net.cptshape.cptshapemod.block.custom.BismuthLampBlock;
 import net.cptshape.cptshapemod.block.custom.MagicBlock;
 import net.cptshape.cptshapemod.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -51,27 +52,64 @@ public class ModBlocks {
 
     public static final DeferredBlock<StairBlock> BISMUTH_STAIRS = registerBlock("bismuth_stairs",
             () -> new StairBlock(ModBlocks.BISMUTH_BLOCK.get().defaultBlockState(),
-                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+                    BlockBehaviour.Properties.of()
+                            .strength(2f)
+                            .requiresCorrectToolForDrops()
+            ));
     public static final DeferredBlock<SlabBlock> BISMUTH_SLAB = registerBlock("bismuth_slab",
-            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+            () -> new SlabBlock(BlockBehaviour.Properties.of()
+                    .strength(2f)
+                    .requiresCorrectToolForDrops()
+            ));
 
     public static final DeferredBlock<PressurePlateBlock> BISMUTH_PRESSURE_PLATE = registerBlock("bismuth_pressure_plate",
-            () -> new PressurePlateBlock(BlockSetType.IRON, BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+            () -> new PressurePlateBlock(BlockSetType.IRON, BlockBehaviour.Properties.of()
+                    .strength(2f)
+                    .requiresCorrectToolForDrops()
+            ));
     public static final DeferredBlock<ButtonBlock> BISMUTH_BUTTON = registerBlock("bismuth_button",
             () -> new ButtonBlock(BlockSetType.IRON, 20,
-                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops().noCollission()));
+                    BlockBehaviour.Properties.of()
+                            .strength(2f)
+                            .requiresCorrectToolForDrops()
+                            .noCollission()
+            ));
 
     public static final DeferredBlock<FenceBlock> BISMUTH_FENCE = registerBlock("bismuth_fence",
-            () -> new FenceBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+            () -> new FenceBlock(BlockBehaviour.Properties.of()
+                    .strength(2f)
+                    .requiresCorrectToolForDrops()
+            ));
     public static final DeferredBlock<FenceGateBlock> BISMUTH_FENCE_GATE = registerBlock("bismuth_fence_gate",
-            () -> new FenceGateBlock(WoodType.OAK, BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+            () -> new FenceGateBlock(WoodType.OAK, BlockBehaviour.Properties.of()
+                    .strength(2f)
+                    .requiresCorrectToolForDrops()
+            ));
     public static final DeferredBlock<WallBlock> BISMUTH_WALL = registerBlock("bismuth_wall",
-            () -> new WallBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+            () -> new WallBlock(BlockBehaviour.Properties.of()
+                    .strength(2f)
+                    .requiresCorrectToolForDrops()
+            ));
 
     public static final DeferredBlock<DoorBlock> BISMUTH_DOOR = registerBlock("bismuth_door",
-            () -> new DoorBlock(BlockSetType.IRON, BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops().noOcclusion()));
+            () -> new DoorBlock(BlockSetType.IRON, BlockBehaviour.Properties.of()
+                    .strength(2f)
+                    .requiresCorrectToolForDrops()
+                    .noOcclusion()
+            ));
     public static final DeferredBlock<TrapDoorBlock> BISMUTH_TRAP_DOOR = registerBlock("bismuth_trap_door",
-            () -> new TrapDoorBlock(BlockSetType.IRON, BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops().noOcclusion()));
+            () -> new TrapDoorBlock(BlockSetType.IRON, BlockBehaviour.Properties.of()
+                    .strength(2f)
+                    .requiresCorrectToolForDrops()
+                    .noOcclusion()
+            ));
+
+    public static final DeferredBlock<Block> BISMUTH_LAMP = registerBlock("bismuth_lamp",
+            () -> new BismuthLampBlock(BlockBehaviour.Properties.of()
+                    .strength(2f)
+                    .requiresCorrectToolForDrops()
+                    .lightLevel(state -> state.getValue(BismuthLampBlock.CLICKED) ? 15 : 0)
+            ));
 
 
 

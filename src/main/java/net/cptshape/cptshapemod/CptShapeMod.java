@@ -1,6 +1,7 @@
 package net.cptshape.cptshapemod;
 
 import net.cptshape.cptshapemod.block.ModBlocks;
+import net.cptshape.cptshapemod.component.ModDataComponents;
 import net.cptshape.cptshapemod.item.ModItems;
 import net.cptshape.cptshapemod.item.ModeCreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -40,6 +41,8 @@ public class CptShapeMod {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModDataComponents.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);

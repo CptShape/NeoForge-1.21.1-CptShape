@@ -2,8 +2,13 @@ package net.cptshape.cptshapemod.datagen;
 
 import net.cptshape.cptshapemod.CptShapeMod;
 import net.cptshape.cptshapemod.block.ModBlocks;
+import net.cptshape.cptshapemod.block.custom.BismuthLampBlock;
 import net.minecraft.data.PackOutput;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.state.properties.BooleanProperty;
 import net.neoforged.neoforge.client.model.generators.BlockStateProvider;
+import net.neoforged.neoforge.client.model.generators.ConfiguredModel;
 import net.neoforged.neoforge.client.model.generators.ModelFile;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import net.neoforged.neoforge.registries.DeferredBlock;
@@ -37,6 +42,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockItem(ModBlocks.BISMUTH_PRESSURE_PLATE);
         blockItem(ModBlocks.BISMUTH_FENCE_GATE);
         blockItem(ModBlocks.BISMUTH_TRAP_DOOR, "_bottom");
+
+        blockItemWithBooleanState(ModBlocks.BISMUTH_LAMP, "bismuth_lamp", BismuthLampBlock.CLICKED);
     }
 
     private void blockWithItem(DeferredBlock<?> deferredBlock) {
@@ -49,5 +56,37 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
     private void blockItem(DeferredBlock<?> deferredBlock, String appendix) {
         simpleBlockItem(deferredBlock.get(), new ModelFile.UncheckedModelFile("cptshapemod:block/" + deferredBlock.getId().getPath() + appendix));
+    }
+
+    /* blockItemWithBooleanState'nin sadece lamp için çalışan HARD CODED hali, tutorial da bunu gösterdi, geliştirip blockItemWithBooleanState'i kendim yaptım
+    private void customLamp() {
+        getVariantBuilder(ModBlocks.BISMUTH_LAMP.get()).forAllStates(state -> {
+            if(state.getValue(BismuthLampBlock.CLICKED)) {
+                return new ConfiguredModel[]{new ConfiguredModel(models().cubeAll("bismuth_lamp_on",
+                        ResourceLocation.fromNamespaceAndPath(CptShapeMod.MOD_ID, "block/" + "bismuth_lamp_on")))};
+            } else {
+                return new ConfiguredModel[]{new ConfiguredModel(models().cubeAll("bismuth_lamp_off",
+                        ResourceLocation.fromNamespaceAndPath(CptShapeMod.MOD_ID, "block/" + "bismuth_lamp_off")))};
+            }
+        });
+
+        simpleBlockItem(ModBlocks.BISMUTH_LAMP.get(), models().cubeAll("bismuth_lamp_on",
+                ResourceLocation.fromNamespaceAndPath(CptShapeMod.MOD_ID, "block/" + "bismuth_lamp_on")));
+    }
+    */
+
+    private void blockItemWithBooleanState(DeferredBlock<Block> inBlock, String inName, BooleanProperty inBool) {
+        getVariantBuilder(inBlock.get()).forAllStates(state -> {
+            if(state.getValue(inBool)) {
+                return new ConfiguredModel[]{new ConfiguredModel(models().cubeAll(inName + "_on",
+                        ResourceLocation.fromNamespaceAndPath(CptShapeMod.MOD_ID, "block/" + inName + "_on")))};
+            } else {
+                return new ConfiguredModel[]{new ConfiguredModel(models().cubeAll(inName + "_off",
+                        ResourceLocation.fromNamespaceAndPath(CptShapeMod.MOD_ID, "block/" + inName + "_off")))};
+            }
+        });
+
+        simpleBlockItem(inBlock.get(), models().cubeAll(inName + "_on",
+                ResourceLocation.fromNamespaceAndPath(CptShapeMod.MOD_ID, "block/" + inName + "_on")));
     }
 }

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "clicked=false": {
+      "model": "cptshapemod:block/bismuth_lamp_off"
+    },
+    "clicked=true": {
+      "model": "cptshapemod:block/bismuth_lamp_on"
+    }
+  }
+}

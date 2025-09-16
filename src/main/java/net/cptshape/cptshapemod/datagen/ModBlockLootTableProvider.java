@@ -46,6 +46,9 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.BISMUTH_WALL.get());
         add(ModBlocks.BISMUTH_DOOR.get(),
                 block -> createDoorTable(ModBlocks.BISMUTH_DOOR.get()));
+        dropSelf(ModBlocks.BISMUTH_LAMP.get());
+
+
     }
 
     protected LootTable.Builder createMultipleOreDrops(Block pBlock, Item item, float minDrops, float maxDrops) {

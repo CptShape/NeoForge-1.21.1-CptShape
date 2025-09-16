@@ -1,6 +1,9 @@
-// 1.21.1	2025-09-16T06:56:41.4176393	Tags for minecraft:block mod id cptshapemod
+// 1.21.1	2025-09-16T09:09:48.9862128	Tags for minecraft:block mod id cptshapemod
+372c0e2d412e927a2535549c3e9d445b35c89dac data/cptshapemod/tags/block/incorrect_for_bismuth_tool.json
+0f5891076f5360df97c854de1e8c7c414cdd0f6f data/cptshapemod/tags/block/needs_bismuth_tool.json
 7b0565f15147f15c4cf2421fa63ea5fa3d14d868 data/minecraft/tags/block/fences.json
 c7cdc0c6264cb146bfcbfcc29b5fdf1544767d79 data/minecraft/tags/block/fence_gates.json
-501a217924d3d3e6050f09468a7d6926d0784d3b data/minecraft/tags/block/mineable/pickaxe.json
+ab6b343dc2b3207906f402bad594028f8793f22c data/minecraft/tags/block/mineable/pickaxe.json
+d924ad60fa23e45066ee1e5d40cd26944875ca4f data/minecraft/tags/block/needs_diamond_tool.json
 45a51555d6ce6ae269da74fd2d64ad89d0ff55f7 data/minecraft/tags/block/needs_iron_tool.json
 f271e73750cde0059fa59fa505091373debaada8 data/minecraft/tags/block/walls.json

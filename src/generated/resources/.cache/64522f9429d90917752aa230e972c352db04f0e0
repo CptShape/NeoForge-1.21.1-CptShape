@@ -1,2 +1,7 @@
-// 1.21.1	2025-09-16T06:56:41.4146383	Tags for minecraft:item mod id cptshapemod
+// 1.21.1	2025-09-16T09:09:48.9852129	Tags for minecraft:item mod id cptshapemod
 2ed4c9e781953320ebf95f78e41e52c279f46b1a data/cptshapemod/tags/item/transformable_items.json
+02d5c5272300cb0be3442232515f90f220041634 data/minecraft/tags/item/axes.json
+6cac594b148c45f4cff4353842f4d30654c2f9eb data/minecraft/tags/item/hoes.json
+a97685f704a74a9e7ee17737eda4993b4addbbcb data/minecraft/tags/item/pickaxes.json
+1a32802a761da899cb48260e7cc047ee79ca89a9 data/minecraft/tags/item/shovels.json
+f13527d18ef19715c8df5bfa7cf60b19d8ea5465 data/minecraft/tags/item/swords.json

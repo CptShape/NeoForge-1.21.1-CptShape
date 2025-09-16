@@ -8,6 +8,12 @@
   "item.cptshapemod.starlight_ashes": "Starlight Ashes",
   "item.cptshapemod.frostfire_ice": "Frostfire Ice",
 
+  "item.cptshapemod.bismuth_sword": "Bismuth Sword",
+  "item.cptshapemod.bismuth_pickaxe": "Bismuth Pickaxe",
+  "item.cptshapemod.bismuth_shovel": "Bismuth Shovel",
+  "item.cptshapemod.bismuth_axe": "Bismuth Axe",
+  "item.cptshapemod.bismuth_hoe": "Bismuth Hoe",
+
   "block.cptshapemod.bismuth_block": "bismuth Block",
   "block.cptshapemod.bismuth_ore": "bismuth Ore",
   "block.cptshapemod.bismuth_deepslate_ore": "bismuth Deepslate Ore",
@@ -24,6 +30,8 @@
 
   "block.cptshapemod.bismuth_door": "bismuth Door",
   "block.cptshapemod.bismuth_trapdoor": "bismuth Trapdoor",
+
+  "block.cptshapemod.bismuth_lamp": "Bismuth Lamp",
 
   "block.cptshapemod.magic_block": "Magic Block",
 

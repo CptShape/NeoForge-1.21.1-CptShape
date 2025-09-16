@@ -26,6 +26,12 @@ public class ModeCreativeModeTabs {
                         output.accept(ModItems.STARLIGHT_ASHES);
                         output.accept(ModItems.FROSTFIRE_ICE);
 
+                        output.accept(ModItems.BISMUTH_SWORD);
+                        output.accept(ModItems.BISMUTH_SHOVEL);
+                        output.accept(ModItems.BISMUTH_AXE);
+                        output.accept(ModItems.BISMUTH_PICKAXE);
+                        output.accept(ModItems.BISMUTH_HOE);
+
                         output.accept(ModItems.CHISEL);
 
                     }).build());
@@ -49,6 +55,8 @@ public class ModeCreativeModeTabs {
                         output.accept(ModBlocks.BISMUTH_WALL);
                         output.accept(ModBlocks.BISMUTH_DOOR);
                         output.accept(ModBlocks.BISMUTH_TRAP_DOOR);
+
+                        output.accept(ModBlocks.BISMUTH_LAMP);
 
                         output.accept(ModBlocks.MAGIC_BLOCK);
                     }).build());

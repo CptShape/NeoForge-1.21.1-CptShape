@@ -1,8 +1,13 @@
-// 1.21.1	2025-09-16T06:56:41.4136389	Item Models: cptshapemod
+// 1.21.1	2025-09-16T09:09:48.9842136	Item Models: cptshapemod
 d0398848f01bc01c73e27f25f40e419f4d9caec4 assets/cptshapemod/models/item/bismuth.json
+759640f4a5218d55db68bb80413b8373defed6a3 assets/cptshapemod/models/item/bismuth_axe.json
 4373974056b5dbfdc56a444571b44ee072718c08 assets/cptshapemod/models/item/bismuth_button.json
 921ed27b535c7f3735c05d1bec39120879a56733 assets/cptshapemod/models/item/bismuth_door.json
 cde0d5c874b8e7dcb45959c087e35be3dc44ccc4 assets/cptshapemod/models/item/bismuth_fence.json
+69b405c2511e1b8a4bf03dffadd8fec28a7d6061 assets/cptshapemod/models/item/bismuth_hoe.json
+1ee8ffdf901c376ecc1ac508e590f82460987142 assets/cptshapemod/models/item/bismuth_pickaxe.json
+47b0741488e8292f92b7fe2a2f68546ccb4ba049 assets/cptshapemod/models/item/bismuth_shovel.json
+c847bb3e52c17fd774c608bd49cc4a122a35161b assets/cptshapemod/models/item/bismuth_sword.json
 508a884c25cbfbceb67105e894fdce3b153035d1 assets/cptshapemod/models/item/bismuth_wall.json
 6d13fbe6a003e251a4a658dc5e7d5980d705f14f assets/cptshapemod/models/item/chisel.json
 c10d17306ac5665da4874613623cb295dcf968eb assets/cptshapemod/models/item/frostfire_ice.json

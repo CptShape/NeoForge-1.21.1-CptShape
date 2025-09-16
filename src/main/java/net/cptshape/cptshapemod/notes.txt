@@ -66,3 +66,17 @@ data - cptshapemod - recipe - new json
 TOOLTOP: chisel, magic_block and radish
 either override appendHoverText function inside of a class, if you don't have a class for the item in the registeration
 you can create an anonymous class and override the function in there.
+
+
+
+
+
+DATA COMPONENTS: ModDataComponents class'ında üretiliyor, ChiselItem'da örnek kullanım var (position)
+
+
+
+
+
+CUSTOM TOOL TIER:
+ModTags'e yeni tag ekliyoruz.
+ModToolTiers'a ekleme yapıyoruz.

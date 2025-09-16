@@ -6,6 +6,7 @@ import net.cptshape.cptshapemod.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
+import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Block;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
@@ -25,6 +26,17 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.BISMUTH.get())
                 .add(ModItems.RAW_BISMUTH.get())
                 .add(Items.COAL);
+
+        tag(ItemTags.SWORDS)
+                .add(ModItems.BISMUTH_SWORD.get());
+        tag(ItemTags.SHOVELS)
+                .add(ModItems.BISMUTH_SHOVEL.get());
+        tag(ItemTags.AXES)
+                .add(ModItems.BISMUTH_AXE.get());
+        tag(ItemTags.PICKAXES)
+                .add(ModItems.BISMUTH_PICKAXE.get());
+        tag(ItemTags.HOES)
+                .add(ModItems.BISMUTH_HOE.get());
 
     }
 }
